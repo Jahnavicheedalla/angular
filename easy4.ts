@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isVisible = true;
-
-  toggleVisibility() {
-    this.isVisible = !this.isVisible;
-  }
+  items = ['Apple', 'Banana', 'Cherry', 'Date', 'Grape'];
 }

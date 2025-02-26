@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  items = ['Apple', 'Banana', 'Cherry', 'Date', 'Grape'];
+  count = 0;
+
+  increment() {
+    this.count++;
+  }
 }

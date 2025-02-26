@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  count = 0;
+  isVisible = true;
 
-  increment() {
-    this.count++;
+  toggleVisibility() {
+    this.isVisible = !this.isVisible;
   }
 }
